@@ -3,7 +3,7 @@ export default function manageBand(state = {
 }, action) {
   switch (action.type) {
     case 'ADD_BAND':
-      const band = {}
+      const band = {id: }
 
       return { ...state, bands: [...state.bands, action.name] }
 

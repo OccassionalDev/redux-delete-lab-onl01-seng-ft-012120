@@ -12,6 +12,8 @@ export default function manageBand(state = {
 
       return { ...state, bands: [...state.bands, band] }
 
+    case 'DELETE_BAND':
+
     default:
       return state;
   }

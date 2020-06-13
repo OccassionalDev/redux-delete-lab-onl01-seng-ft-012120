@@ -6,7 +6,9 @@ class Band extends Component {
     return(
       <div>
         <span>{ props.name }</span>
-        <button>DELETE</button>
+        <button onClick={() => {
+          delete={}
+        } >DELETE</button>
       </div>
     );
   }

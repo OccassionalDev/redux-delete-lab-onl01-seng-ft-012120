@@ -6,6 +6,7 @@ class Band extends Component {
     return(
       <div>
         <span>{ props.name }</span>
+        <button></button>
       </div>
     );
   }

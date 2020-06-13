@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class Band extends Component {
 
-  handleClick = () => {
+  handleOnClick = () => {
     this.props.deleteBand(this.props.id)
   }
 
@@ -10,7 +10,7 @@ class Band extends Component {
     return(
       <div>
         <li>{ this.props.name }</li>
-        <button onClick={ this.handleClick }>DELETE</button>
+        <button onClick={ this.handleOnClick }>DELETE</button>
       </div>
     );
   }

@@ -7,7 +7,7 @@ export default function manageBand(state = {
     case 'ADD_BAND':
       const band = {
         id: uuid(),
-        name: 
+        name: action.name
       }
 
       return { ...state, bands: [...state.bands, action.name] }
